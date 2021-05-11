@@ -9,12 +9,14 @@ import org.junit.Test;
 
 import com.real.controller.AdminServlet;
 import com.real.controller.CheckPassword;
+import com.real.controller.CompanyServlet;
 import com.real.dao.AdminDao;
 import com.real.dao.AdminDaoImpl;
 import com.real.dao.CompanyDao;
 import com.real.dao.RegisterDaoImpl;
 import com.real.model.Admin;
 import com.real.model.Company;
+import com.real.model.CompanyLogin;
 import com.real.model.Register;
 
 public class AdminTest {
@@ -181,9 +183,33 @@ public class AdminTest {
 		assertEquals(0, rd.approve("10", "24"));
 	}
 	@Test
-	public void admin()
+	public void whenCompanyGetsRegistered()
 	{
+		Company c=new Company();
+		c.getCompanyid();
+		assertEquals(0, c.getCompanyid());
+	}
+	@Test
+	public void complogin()
+	{
+		CompanyLogin cl=new CompanyLogin();
+		cl.getCompanyemail();
+		assertEquals(null, cl.getCompanyemail());
 		
 	}
-
+	@Test
+	public void comploginpassword()
+	{
+		CompanyLogin cl=new CompanyLogin();
+		cl.getCompanypassword();
+		assertEquals(null, cl.getCompanypassword());
+	}
+	@Test
+	public void comServlet()
+	{
+		Company c=new Company();
+	      AdminDao ad=new AdminDaoImpl();
+	      ad.updateCompany(c);
+	      
+	}
 }
