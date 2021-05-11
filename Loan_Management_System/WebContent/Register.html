@@ -1,0 +1,217 @@
+<!doctype html>
+
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Loan Management System</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<!--  <script type="text/javascript">
+function validate(field, query)
+{
+   var xmlhttp;
+   if(window.XMLHttpRequest)
+	   {
+	   xmlhttp=new XMLHttpRequest();
+	   }
+   else
+	   {
+         xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	   }
+   xmlhttp.onreadystatechange=function()
+   {
+      if(xmlhttp.readyState != 4 && xmlhttp.status == 200)
+          {
+                document.getElementById(field).innerHTML = "Validating...";
+          }
+      else if(xmlhttp.readyState == 4 && xmlhttp.status == 200)
+      {
+        document.getElementById(field).innerHTML = xmlhttp.responseText;
+      }
+      else
+          {
+            document.getElementById(field).innerHTML = "Error occured"
+          }
+
+	   }
+   xmlhttp.open("GET", "length must be 5 char", false);
+   xmlhttp.send();
+	}
+</script>  -->
+<body>
+<nav class="navbar navbar-inverse" style="font-size: 20px">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index1.html">Loans</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index1.html">Home</a></li>
+        
+        
+        
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<section id="content" class="normalpage"><section id="page"><section id="fourcols">
+<header class="subhead">
+<h2>We offer the best Interest rates</h2>
+</header>
+<center>
+<h3>Apply For Loan</h3>
+
+<form action="RegisterServlet" method="post" style="font-size: 15px">
+<table border="2">
+<tr>
+<td>
+Name
+</td>
+<td>
+<input type="text" name="name" required onblur="validate('name',this.value)">
+</td>
+</tr>
+<tr>
+<td>
+Email ID
+</td>
+<td>
+<input type="email" name="email" required>
+</td>
+</tr>
+<tr>
+<td>
+Contact
+</td>
+<td>
+<input type="number" name="contact" required>
+</td>
+</tr>
+<tr>
+<td>
+Pan Number
+</td>
+<td>
+<input type="text" name="pannumber" required>
+</td>
+</tr>
+<tr>
+<td>
+AAdhar Number
+</td>
+<td>
+<input type="number" name="aadharnumber" required>
+</td>
+</tr>
+<tr>
+<td>
+Type of Loan
+</td>
+<td>
+<select name="typeloan" style="width:150px">
+<option>Auto</option>
+<option>Home</option>
+<option>Personal</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+Submit Details
+</td>
+<td>
+<input type="submit" value="submit">
+</td>
+</tr>
+
+</table>
+</form>
+</center>
+<div class="clear"></div>
+<div class="col" style="font-size: 10px;margin-right: 32px">
+<h3>Check your credit score</h3>
+<p>There are multiple institutions such as CIBIL, CRIF, Experian and Equifax that provide credit scoring for individual customers in India. These bureaus measure your credit score on a scale of 300 to 900, which is assessed on the basis of your credit card usage, loans, repayments and previous loan or credit card applications</p>
+</div>
+
+<div class="col" style="font-size: 10px;margin-right: 42px;padding-right: 2px;word-spacing: 5px">
+<h3>Interest rates, fees, and charges</h3>
+<p style="word-spacing: 1px">When it comes to taking a loan, the first thing that will come to your mind is the interest rate. There are two forms of interest rates—fixed and floating. The fixed rate is one that is not affected by market fluctuations, whereas floating rate changes accordingly. The fixed rate is slightly higher than the floating rate. It is necessary to evaluate the pros and cons in both cases.</p>
+</div>
+
+<div class="col" style="font-size: 10px;margin-right: 54px">
+<h3>Loan tenure</h3>
+<p>The higher the tenure, higher will be the absolute amount of interest paid. Therefore, it is recommended to keep the loan repayment period as low as possible so that you do not end up paying more than what is required.</p>
+</div>
+
+<div class="col" style="font-size: 10px">
+<h3>Documentation</h3>
+<p>As you go through all the loan documents, make sure you pay extra attention to all the terms and conditions of the agreement including those mentioned in small text in the document.</p>
+</div>
+<div class="clear"></div>
+</section>
+<article class="post">
+<div class="imageholder">
+  <img src="dist/img/CR.png" alt="credit score" width="238" height="148"></div>
+<section class="entry"><h3>Check your credit score</h3>
+<p style="position: absolute;">Your credit score should preferably be more than 700 to improve your chances of getting a home loan approved. If your track record of paying credit card dues and loans is not stellar, then clean it up before initiating the loan application process.</p>
+  </section>
+  <div class="clear"></div>
+</article>
+
+<article class="post">
+<div class="imageholder">
+  <img src="dist/img/IR.jpg" alt="IR" width="238" height="148"></div>
+<section class="entry">
+<h3>Interest rates, fees, and charges</h3>
+<p>You should keep in mind the various fees and charges that are attached to the loan-taking process. Some of these fees and charges include loan processing fees, penalty on late payment, verification charges and service tax.</p>
+  </section>
+  <div class="clear"></div>
+</article>
+
+<article class="post">
+<div class="imageholder">
+  <img src="dist/img/LT.jpg" alt="LT" width="238" height="148"></div>
+<section class="entry">
+<h3>Loan tenure</h3>
+<p>However, the loan tenure should always be calculated while keeping your paying capacity in mind.</p>
+  </section>
+  <div class="clear"></div>
+</article>
+
+<article class="post">
+<div class="imageholder">
+  <img src="dist/img/Documentation.jpg" alt="doc" width="238" height="148"></div>
+<section class="entry">
+<h3>Documentation</h3>
+<p>Lack of information regarding the loan application process is a major reason why most people either tend to shy away from taking any loans or end up miscalculating their finances. Keeping the above points in mind may help you make a calculated decision regarding loan.</p>
+  </section>
+  <div class="clear"></div>
+</article>
+</section>
+</section>
+</div>
+
+<footer>
+
+<!--  <div id="bottom">
+<a href="#">Home</a> | <a href="#">About Us</a> | <a href="#">Contact Us</a> |<a href="#"> Support</a> | <a href="#">Products</a> | <a href="#">Services</a>
+<div class="clear"></div>
+</div>-->
+<div id="credits">
+2021 &copy; All Rights Reserved.  </div>
+</footer>
+
+</body>
+</html>

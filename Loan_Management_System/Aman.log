@@ -1,0 +1,72 @@
+INFO    2021-05-10 15:49:44,254 [http-nio-8090-exec-8] com.real.controller.AdminServlet  - Inside do post of admin servlet class
+INFO    2021-05-10 15:49:44,262 [http-nio-8090-exec-8] com.real.controller.AdminServlet  - redirecting to view servlet
+INFO    2021-05-10 17:38:23,491 [http-nio-8090-exec-8] com.real.controller.AdminServlet  - Inside do post of admin servlet class
+INFO    2021-05-10 17:38:23,499 [http-nio-8090-exec-8] com.real.controller.AdminServlet  - redirecting to view servlet
+INFO    2021-05-10 17:38:23,517 [http-nio-8090-exec-9] com.real.controller.ViewServlet  - inside dopost method of viewservlet 
+INFO    2021-05-10 17:38:23,522 [http-nio-8090-exec-9] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-10 17:38:25,045 [http-nio-8090-exec-9] com.real.dao.AdminDaoImpl  - This method is used to display all the company who are registered as a company
+INFO    2021-05-10 17:38:35,594 [http-nio-8090-exec-7] com.real.controller.DeleteServlet  - Inside doGet method of DeleteServlet
+INFO    2021-05-10 17:38:35,595 [http-nio-8090-exec-7] com.real.controller.DeleteServlet  - delete method is called from admindao
+INFO    2021-05-10 17:38:35,596 [http-nio-8090-exec-7] com.real.dao.AdminDaoImpl  - This method is used to delete the user
+INFO    2021-05-10 17:38:35,685 [http-nio-8090-exec-8] com.real.controller.ViewServlet  - inside dopost method of viewservlet 
+INFO    2021-05-10 17:38:35,686 [http-nio-8090-exec-8] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-10 17:38:35,742 [http-nio-8090-exec-8] com.real.dao.AdminDaoImpl  - This method is used to display all the company who are registered as a company
+INFO    2021-05-10 17:38:44,650 [http-nio-8090-exec-6] com.real.controller.EditServlet  - inside edit servlet of update user
+INFO    2021-05-10 17:38:44,650 [http-nio-8090-exec-6] com.real.dao.AdminDaoImpl  - this is the method used to reterive data from a specific id
+INFO    2021-05-10 17:38:52,833 [http-nio-8090-exec-7] com.real.controller.EditServlet2  - Inside of edit servlet(user)
+INFO    2021-05-10 17:38:52,834 [http-nio-8090-exec-7] com.real.dao.AdminDaoImpl  - this is the update method which admin can perform
+INFO    2021-05-10 17:38:53,031 [http-nio-8090-exec-8] com.real.controller.ViewServlet  - inside dopost method of viewservlet 
+INFO    2021-05-10 17:38:53,031 [http-nio-8090-exec-8] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-10 17:38:53,062 [http-nio-8090-exec-8] com.real.dao.AdminDaoImpl  - This method is used to display all the company who are registered as a company
+INFO    2021-05-10 17:39:01,007 [http-nio-8090-exec-6] com.real.controller.EditServletCompany  - Inside DoGet method of the editservletcompany class
+INFO    2021-05-10 17:39:01,008 [http-nio-8090-exec-6] com.real.dao.AdminDaoImpl  - this method is used to take a company by specific id
+INFO    2021-05-10 17:39:07,882 [http-nio-8090-exec-7] com.real.controller.EditServlet2c  - inside doPost of editservlet company
+INFO    2021-05-10 17:39:07,883 [http-nio-8090-exec-7] com.real.dao.AdminDaoImpl  - this is the update method of the company
+INFO    2021-05-10 17:39:07,928 [http-nio-8090-exec-8] com.real.controller.ViewServlet  - inside dopost method of viewservlet 
+INFO    2021-05-10 17:39:07,928 [http-nio-8090-exec-8] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-10 17:39:07,954 [http-nio-8090-exec-8] com.real.dao.AdminDaoImpl  - This method is used to display all the company who are registered as a company
+INFO    2021-05-10 18:40:25,290 [http-nio-8090-exec-10] com.real.controller.RegisterServlet  - This is used to register the user
+INFO    2021-05-10 18:40:25,747 [http-nio-8090-exec-10] com.real.dao.RegisterDaoImpl  - This is the insert method of users who will register
+INFO    2021-05-10 18:40:29,823 [http-nio-8090-exec-10] com.real.dao.RegisterDaoImpl  - If the data is saved successfully the use will receive email on his/her given id
+INFO    2021-05-10 18:41:42,342 [http-nio-8090-exec-1] com.real.controller.CompLogin  - inside doPost method of companylogin servlet
+INFO    2021-05-10 18:41:42,569 [http-nio-8090-exec-1] com.real.controller.CompLogin  - session has been created
+INFO    2021-05-10 18:41:42,581 [http-nio-8090-exec-1] com.real.controller.CompLogin  - if successfull it redirect you to company
+ERROR   2021-05-10 18:41:42,581 [http-nio-8090-exec-1] com.real.controller.CompLogin  - exception occured check the data
+INFO    2021-05-10 18:41:42,591 [http-nio-8090-exec-3] com.real.controller.Company  - inside of doGet method of company servlet
+INFO    2021-05-10 18:41:42,592 [http-nio-8090-exec-3] com.real.controller.Company  - Session has been created
+INFO    2021-05-10 18:41:42,596 [http-nio-8090-exec-3] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-10 18:41:42,754 [http-nio-8090-exec-3] com.real.controller.Company  - data is visible to users in the form of table
+INFO    2021-05-10 18:41:53,140 [http-nio-8090-exec-5] com.real.controller.Company  - inside of doGet method of company servlet
+INFO    2021-05-10 18:41:53,140 [http-nio-8090-exec-5] com.real.controller.Company  - Session has been created
+INFO    2021-05-10 18:41:53,141 [http-nio-8090-exec-5] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-10 18:41:53,425 [http-nio-8090-exec-5] com.real.controller.Company  - data is visible to users in the form of table
+INFO    2021-05-11 11:24:17,216 [http-nio-8090-exec-8] com.real.controller.RegisterServlet  - This is used to register the user
+INFO    2021-05-11 11:24:17,230 [http-nio-8090-exec-8] com.real.dao.RegisterDaoImpl  - This is the insert method of users who will register
+INFO    2021-05-11 11:24:35,468 [http-nio-8090-exec-6] com.real.controller.AdminServlet  - Inside do post of admin servlet class
+INFO    2021-05-11 11:24:35,470 [http-nio-8090-exec-6] com.real.controller.AdminServlet  - redirecting to view servlet
+INFO    2021-05-11 11:24:35,475 [http-nio-8090-exec-7] com.real.controller.ViewServlet  - inside dopost method of viewservlet 
+INFO    2021-05-11 11:24:35,487 [http-nio-8090-exec-7] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-11 11:24:35,699 [http-nio-8090-exec-7] com.real.dao.AdminDaoImpl  - This method is used to display all the company who are registered as a company
+INFO    2021-05-11 11:24:53,216 [http-nio-8090-exec-4] com.real.controller.ViewServlet  - inside dopost method of viewservlet 
+INFO    2021-05-11 11:24:53,217 [http-nio-8090-exec-4] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-11 11:24:53,464 [http-nio-8090-exec-4] com.real.dao.AdminDaoImpl  - This method is used to display all the company who are registered as a company
+INFO    2021-05-11 11:26:57,208 [http-nio-8090-exec-6] com.real.controller.RegisterServlet  - This is used to register the user
+INFO    2021-05-11 11:26:57,209 [http-nio-8090-exec-6] com.real.dao.RegisterDaoImpl  - This is the insert method of users who will register
+INFO    2021-05-11 11:26:57,445 [http-nio-8090-exec-6] com.real.dao.RegisterDaoImpl  - If the data is saved successfully the use will receive email on his/her given id
+INFO    2021-05-11 11:27:29,421 [http-nio-8090-exec-10] com.real.controller.AdminServlet  - Inside do post of admin servlet class
+INFO    2021-05-11 11:27:29,421 [http-nio-8090-exec-10] com.real.controller.AdminServlet  - redirecting to view servlet
+INFO    2021-05-11 11:27:29,436 [http-nio-8090-exec-7] com.real.controller.ViewServlet  - inside dopost method of viewservlet 
+INFO    2021-05-11 11:27:29,437 [http-nio-8090-exec-7] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-11 11:27:29,464 [http-nio-8090-exec-7] com.real.dao.AdminDaoImpl  - This method is used to display all the company who are registered as a company
+INFO    2021-05-11 11:27:34,900 [http-nio-8090-exec-8] com.real.controller.EditServlet  - inside edit servlet of update user
+INFO    2021-05-11 11:27:34,900 [http-nio-8090-exec-8] com.real.dao.AdminDaoImpl  - this is the method used to reterive data from a specific id
+INFO    2021-05-11 11:27:41,359 [http-nio-8090-exec-10] com.real.controller.EditServlet2  - Inside of edit servlet(user)
+INFO    2021-05-11 11:27:41,360 [http-nio-8090-exec-10] com.real.dao.AdminDaoImpl  - this is the update method which admin can perform
+INFO    2021-05-11 11:27:41,595 [http-nio-8090-exec-7] com.real.controller.ViewServlet  - inside dopost method of viewservlet 
+INFO    2021-05-11 11:27:41,595 [http-nio-8090-exec-7] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-11 11:27:41,621 [http-nio-8090-exec-7] com.real.dao.AdminDaoImpl  - This method is used to display all the company who are registered as a company
+INFO    2021-05-11 11:27:55,185 [http-nio-8090-exec-8] com.real.controller.DeleteServletCompany  - inside of doGet method of DeleteServlet Company 
+INFO    2021-05-11 11:27:55,185 [http-nio-8090-exec-8] com.real.dao.AdminDaoImpl  - this method is used to delete the company
+INFO    2021-05-11 11:27:57,148 [http-nio-8090-exec-10] com.real.controller.ViewServlet  - inside dopost method of viewservlet 
+INFO    2021-05-11 11:27:57,149 [http-nio-8090-exec-10] com.real.dao.AdminDaoImpl  - This method is used to display all the user who are registered
+INFO    2021-05-11 11:27:57,197 [http-nio-8090-exec-10] com.real.dao.AdminDaoImpl  - This method is used to display all the company who are registered as a company

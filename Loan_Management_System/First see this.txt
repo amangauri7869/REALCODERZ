@@ -1,0 +1,36 @@
+This is a project on Loan Management System. There are 4 panels(LINKS) on index1.html page
+1. Apply for Loan
+2. Admin Login      (id=aman, password=gauri)
+3. Company Registration
+4. Company Login
+
+Apply for loan is the register.html page in which user will enter the details and will
+get an email notification.
+
+Admin login is the admin.html page in which admin can perform all the crud operation
+
+Company Registration is the company.html page which company can register his/her company
+will get an email notification
+
+Company Login is where the company will login and see which users have applied for the loan
+and get them approve
+
+In the project I have used HTML, servlets, bootstrap, ajax, jquery, junit and loggers
+
+In the database I have used mysql in which I have created 3 Tables 
+Register
+Company
+Loans
+
+Register table works with apply for loan link
+
+Company works with Company registration
+
+in loans table, id of register table and companyid of company table are foreign key
+as well as unique key.
+
+
+
+
+
+
